@@ -1,0 +1,10 @@
+
+input[type='radio'],
+input[type='radio']:checked {
+  background-image: url(/images/star0.png);
+  appearance: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 100%;
+  margin-right: 0.1rem;
+}

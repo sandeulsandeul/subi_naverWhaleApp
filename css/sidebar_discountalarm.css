@@ -1,0 +1,74 @@
+
+article{
+    margin-bottom: 50px;
+}
+
+body> article>section> #headline{
+  text-align: left;
+  float: center;
+  margin-left: 20px;
+}
+.alarmitem{
+  border: 5px solid #DCDCDC;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  min-height: 50px;
+}
+.alarmname{
+  float: center;
+  width: 380px;
+  height: 30px;
+}
+
+.alarmname>input{
+  width: 15px;
+  height: 15px;
+  float: left;
+  margin-left: 10px;
+  margin-top:10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.alarmname>h1{
+  width: 350px;
+  height: 15px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+}
+
+.alarmname>input{
+  width: 15px;
+  height: 15px;
+}
+.alarmvalue{
+  width: 380px;
+  height: 45px;
+}
+
+.alarmvalue> button{
+  margin-top: 5px;
+  background-color: white;
+  border: none;
+  width: 30px;
+  height: auto;
+  padding: 0px;
+  float: left;
+  margin-bottom: 5px;
+  margin-left: 10px;
+
+}
+.alarmvalue> button>img{
+  width: 30px;
+  height: auto;
+}
+.alarmvalue> p{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  width: 330px;
+  float: left;
+  margin-left: 10px;
+}

@@ -1,0 +1,121 @@
+
+body> article>section> #headline{
+  text-align: left;
+  float: center;
+  margin-left: 20px;
+}
+.item{
+  border: 5px solid #DCDCDC;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  min-height: 50px;
+  width: 380px;
+  height: 70px;
+}
+.item > input{
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+}
+.item> .item_info{
+  float: left;
+  width: 355px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.item> .item_info> img{
+  float: left;
+  width: auto;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.item> .item_info> .item_info_text{
+  float: left;
+  width: 280px;
+  height: 60px;
+  margin: 0px;
+}
+
+
+.item> .item_info> .item_info_text >p {
+  float: left;
+  width: 270px;
+  padding-right: 10px;
+
+}
+
+.item> .item_info> .item_info_text >.item_name{
+    padding-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  width: 260px;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0px;
+}
+
+.item> .item_info> .item_info_text >.item_name >a{
+  text-decoration: none;
+  color: black;
+}
+
+.item> .item_info> .item_info_text >.item_name >a:link{
+  text-decoration: none;
+  color: black;
+}
+
+.item> .item_info> .item_info_text >.item_name >a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.item> .item_info> .item_info_text >.item_price{
+    padding-top: 5px;
+  font-size: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-left: 10px;
+  width: 260px;
+  height: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.item_info> .item_info_text > .morebutton  {
+  width: 10px;
+  height: 10px;
+  margin: 0px;
+  float: right;
+  padding-top: 0px;
+  padding-left: 255px;
+  width: 10px;
+  padding-right: 5px;
+}
+
+.item_info> .item_info_text > .morebutton >button {
+  width: 10px;
+  height: 10px;
+  background: none;
+  border: none;
+  float: center;
+  padding: 0px;
+}
+
+.item> .item_info> .item_info_text >.morebutton >button > img{
+  width: auto;
+  height: 10px;
+  float: center;
+  padding: 0px;
+}

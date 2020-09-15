@@ -1,0 +1,26 @@
+form{
+  width: 370px;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form > div{
+  padding-bottom: 10px;
+  width: 370px;
+}
+
+
+form > div >input{
+  border: 1px #E6E6E6 solid;
+  border-radius: 5px;
+}
+
+
+form > div >.memo{
+  width:350px;
+  height:100px;
+  resize: vertical;
+}

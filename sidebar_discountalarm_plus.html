@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/sidebar_discountalarm_plus.css">
+    <title> </title>
+  </head>
+  <body>
+    <header>
+      <a id="logo" href="sidebar.html"><img src="images/walletsubi_top.png" > </a>
+      <nav id="topMenu" >
+        <ul>
+          <li><a class="menuLink" href="sidebar_shoppingstatistics.html">My 가계부</a></li>
+          <li><a class="menuLink" href="sidebar_shoppinglist.html">위시리스트</a></li>
+          <li><a class="menuLink" href="sidebar_shoppingcart.html">장바구니</a></li>
+          <li><a  class="menuLink" href="sidebar_discountalarm.html">할인알람</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <section id="discountalarm_plus">
+        <form id="discountalarm_plus_form" action="index.html" method="post">
+          <div>
+              <label for="discountalarm_name">할인명 </label>
+              <input type="text" id="discountalarm_name" value=" " />
+          </div>
+          <div>
+              <label for="discountalarm_site">사이트 주소 </label>
+              <input type="url" id="discountalarm_site" value=" " />
+          </div>
+          <div>
+              <label for="discountalarm_startdate">할인 기간 </label>
+              <input type="date" id="discountalarm_startdate" value="" />
+              <label for="discountalarm_enddate"> 부터 </label>
+              <input type="date" id="discountalarm_enddate"value=""  />
+          </div>
+          <div>
+              <label for="discountalarm_setting"> 할인 알림 설정 </label>
+              <input type="button" id="discountalarm_setting"  value="yes"/>
+          </div>
+          <div>
+              <label for="discountalarm_percentage">할인율 </label>
+              <input type="text" id="discountalarm_percentage" value="" />
+          </div>
+          <div>
+              <label for="discountalarm_memo"> MEMO </label>
+              <input type="textarea" id="discountalarm_memo" class="memo" />
+          </div>
+          <div >
+            <input type="button" name="" value="확인" id="submit">
+            <input type="button" name="" value="취소" id="clear">
+          </div>
+        </form>
+      </section>
+    </article>
+    <script src="js/script_sidebar_discountalarm_plus.js"></script>
+  </body>
+</html>

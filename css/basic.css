@@ -1,0 +1,76 @@
+
+@font-face {
+ font-family: 'gyeonggititle';
+ font-style: normal;
+ font-weight: 100;
+ src: url(/fonts/Title_Medium.woff) format('woff'),
+      url(/fonts/Title_Medium.otf) format('opentype');
+}
+body,h1,h2,h3,h4,h5,h6,li,a,textarea,button,strong,label,input,th  {
+  font-family: 'gyeonggititle';
+}
+html {
+height: 100%;
+}
+body {
+margin: 0px;
+height: 100%;
+  left: 0px;
+
+}
+.wrap {
+min-height: 100%;
+position: relative;
+}
+body{
+  width: 390px;
+  margin: 0px;
+}
+body > header{
+  width: 390px;
+  height: 90px;
+  padding-top: 10px;
+}
+
+#logo{
+  height: 50px;
+  width: 390PX;
+}
+
+#logo > img{
+  width: auto;
+  height: 50px;
+}
+#topMenu{
+  height: 30px;
+  width: 390PX;
+}
+#topMenu ul{
+  list-style: none;
+  padding-left: 0px;
+  height: 30px;
+  width: 390PX;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#topMenu ul > li {
+   list-style: none;
+   color: white;
+   float: left;
+   line-height: 30px;
+   vertical-align: middle;
+   text-align: center;
+}
+#topMenu .menuLink {
+  text-decoration:none;
+  color: white;
+  display: block;
+  width: 97.5px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #2d2d2d;
+}
+ #topMenu .menuLink:hover {
+   color: #2d2d2d;
+   background-color: white;
+}
